@@ -1,33 +1,35 @@
-{
-  "model": "Miso",
-  "documents": [
-    {
-      "name": "BREC.COLE2",
-      "region": "Midwest",
-      "LMP": "22.83",
-      "MCC": "0.15",
-      "MLC": "0.94"
-    },
-    {
-      "name": "OTP.MPC",
-      "region": "Midwest",
-      "LMP": "19.28",
-      "MCC": "-0.14",
-      "MLC": "-2.32"
-    },
-    {
-      "name": "OTP.MPC.LANGDN",
-      "region": "Midwest",
-      "LMP": "15.37",
-      "MCC": "-0.80",
-      "MLC": "-5.57"
-    },
-    {
-      "name": "EAI.AECCHYDRO2",
-      "region": "South",
-      "LMP": "19.98",
-      "MCC": "-1.49",
-      "MLC": "-0.27"
-    }
-  ]
-}
+[
+  {
+    "model": "misoPrice",
+    "documents": [
+      {
+        "name": "BREC.COLE2",
+        "region": "Midwest",
+        "LMP": "22.83",
+        "MCC": "0.15",
+        "MLC": "0.94"
+      },
+      {
+        "name": "AEC2",
+        "region": "Midwest",
+        "LMP": "19.28",
+        "MCC": "-0.14",
+        "MLC": "-2.32"
+      },
+      {
+        "name": "AEC",
+        "region": "Midwest",
+        "LMP": "15.37",
+        "MCC": "-0.80",
+        "MLC": "-5.57"
+      },
+      {
+        "name": "AECI.ALTW",
+        "region": "South",
+        "LMP": "19.98",
+        "MCC": "-1.49",
+        "MLC": "-0.27"
+      }
+    ]
+  }
+]

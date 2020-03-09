@@ -8,12 +8,12 @@ const {
 
 const app = express();
 
-app.post('/', createUser);
+app.post('/user', createUser);
 
-app.get('/:email', loginUser);
+app.get('/user/:email', loginUser);
 
-app.put('/:_id', updateUser);
+app.put('/user/:_id', updateUser);
 
-app.delete('/:email', deleteUser);
+app.delete('/user/:email', deleteUser);
 
 module.exports = app;

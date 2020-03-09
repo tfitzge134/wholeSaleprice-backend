@@ -1,26 +1,28 @@
-{
-  "model": "Miso",
-  "documents": [
-    {
-      "nodeid": "AEC",
-      "city": "Andalusia",
-      "state": "AR",
-      "lat": 31.308791,
-      "long": -86.48588
-    },
-    {
-      "nodeid": "AEC",
-      "city": "Hermitage",
-      "state": "AR",
-      "lat": 38.030896,
-      "long": -93.321428
-    },
-    {
-      "nodeid": "AECI.ALTW",
-      "city": "Huntsdale",
-      "state": "MO",
-      "lat": 38.911858,
-      "long": -92.489527
-    }
-  ]
-}
+[
+  {
+    "model": "nodes",
+    "documents": [
+      {
+        "nodeid": "BREC.COLE2",
+        "city": "Andalusia",
+        "state": "AR",
+        "lat": 31.308791,
+        "long": -86.48588
+      },
+      {
+        "nodeid": "AEC",
+        "city": "Hermitage",
+        "state": "AR",
+        "lat": 38.030896,
+        "long": -93.321428
+      },
+      {
+        "nodeid": "AECI",
+        "city": "Huntsdale",
+        "state": "MO",
+        "lat": 38.911858,
+        "long": -92.489527
+      }
+    ]
+  }
+]

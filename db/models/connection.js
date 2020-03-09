@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
-const dotenv = require('dotenv');
-dotenv.config();
+
 
 mongoose.connect('mongodb://localhost/miso', { useNewUrlParser: true })
 .then(conn => {
