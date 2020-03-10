@@ -1,5 +1,7 @@
 const express = require('express');
 const {
+  getAllUser,
+  getSingleUser,
   createUser,
   loginUser,
   updateUser,
@@ -8,12 +10,16 @@ const {
 
 const app = express();
 
+app.get('/user', getAllUser);
+
+app.get('/user/single/:_id', getSingleUser);
+
 app.post('/user', createUser);
 
 app.get('/user/:email', loginUser);
 
 app.put('/user/:_id', updateUser);
 
-app.delete('/user/:email', deleteUser);
+app.delete('/user/:_id', deleteUser);
 
 module.exports = app;
